@@ -28,7 +28,7 @@ gRPC error: INVALID_ARGUMENT: Name 'error' is invalid (StatusRuntimeException). 
 Expected log:
 
 ```
-gRPC error: UNAVAILABLE (StatusRuntimeException). Metadata: {x-exception=java.lang.IllegalArgumentException,x-trace-id=26d869b6-d6e1-4c74-8955-1d9376944d7d}
+gRPC error: INVALID_ARGUMENT: Name 'error' is invalid (StatusRuntimeException). Metadata: {x-exception=java.lang.IllegalArgumentException,x-trace-id=26d869b6-d6e1-4c74-8955-1d9376944d7d}
 ```
 
 ## Workaround
