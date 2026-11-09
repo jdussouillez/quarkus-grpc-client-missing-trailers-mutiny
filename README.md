@@ -4,6 +4,9 @@ Project to reproduce a bug where gRPC trailers are lost in gRPC client with Muti
 
 See https://github.com/quarkusio/quarkus/issues/45248
 
+**FIXED**: this bug is fixed on this branch.
+See https://github.com/quarkusio/quarkus/issues/45248#issuecomment-6728744479
+
 ## How to run
 
 Start both gRPC servers and the gRPC client. The client will send the requests automatically.
